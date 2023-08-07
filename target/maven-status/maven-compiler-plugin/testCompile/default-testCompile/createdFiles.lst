@@ -1,0 +1,4 @@
+com\demoqa\BaseTest.class
+com\demoqa\pages\RegistrationPracticeForm.class
+com\demoqa\StudentRegistrationFormTest.class
+com\demoqa\pages\RegistrationPracticeResultTable.class
