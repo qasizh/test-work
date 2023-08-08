@@ -19,7 +19,7 @@ public class FindVacanciesTest extends BaseTest{
         mainPage = new MainPage();
     }
     @Test
-    void searchForVacanciesByCityTest(){
+    void searchForVacanciesByCityAndCompanyTest(){
         String city = "Москва";
         String company = "Совкомбанк Технологии";
 
