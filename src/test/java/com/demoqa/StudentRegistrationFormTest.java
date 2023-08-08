@@ -27,11 +27,11 @@ public class StudentRegistrationFormTest extends BaseTest{
     void setup() {
         registrationForm = new RegistrationPracticeForm();
         resultTable = new RegistrationPracticeResultTable();
-        registrationForm.openPage();
     }
     @Test
     void fillOutFormAndSubmitTest() {
         registrationForm
+                .openPage()
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setEmail(userEmail)
